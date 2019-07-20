@@ -1,2 +1,2 @@
 # aws-react-portfolio
-React-based Portfolio hosted with serverless AWS
+ReactJS-based Portfolio hosted with serverless AWS
