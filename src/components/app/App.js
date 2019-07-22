@@ -6,6 +6,7 @@ import './App.css';
 
 function App() {
   return (
+    <>
     <main className="overflow--auto">
       <h1 className="color--skyBlue section__heading--largest">
         Michael Danes Works
@@ -16,7 +17,8 @@ function App() {
           <a className="color--skyBlue social"
              title="LinkedIn Profile"
              target="_blank"
-             href="{}">
+             rel="noopener noreferrer"
+             href="https://www.linkedin.com/in/michael-danes/">
             <i className="fa fa-linkedin"></i>
           </a>
         </li>
@@ -25,7 +27,8 @@ function App() {
           <a className="social color--skyBlue"
              title="GitHub Profile"
              target="_blank"
-             href="{}">
+             rel="noopener noreferrer"
+             href="https://github.com/mdanes/">
             <i className="fa fa-github"></i>
           </a>
         </li>
@@ -38,6 +41,8 @@ function App() {
           </a>
         </li>
       </ul>
+
+      </main>
 
       <section className="background--skyBlue section">
         <h2 className="color--cloud margin--none section__text--centered">
@@ -120,7 +125,7 @@ function App() {
           </p>
         </div>
       </div>
-    </main>
+    </>
   );
 }
 

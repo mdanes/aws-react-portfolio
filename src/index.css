@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
 */
 
 .section__heading--largest {
-  /*float: left;*/
+  float: left;
   font-size: 5rem;
   margin-left: 2rem;
 }
